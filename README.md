@@ -8,16 +8,16 @@
 4. [RECURSOS](#id4)
 
 ## DESCRIPCIÓN<a name="id1"></a>
-[Incluye la descripción de tu proyecto.]
+Sharecipe una página de recetas online. Está diseñado para que sea responsive (lo mejor que he podido hacer). EN la que la página puedes incluir tus recetas con los ingredientes necesarios y comentarios a dichas recetas. Un perfil con las recetas guardadas, con su login y su "sobre nosotros".
 
 ## PROTOTIPO<a name="id2"></a>
-[Incluye el enlace a tu prototipo realizado en Figma.]
+[https://www.figma.com/file/PPiZfV0R4sEPi2CtYg9uCu/Untitled?node-id=0%3A1&t=5EtVJwkCf5uzpXt8-1]
 
 ## MODIFICACIONES A LA GUÍA DE ESTILOS<a name="id3"></a>
-[Listado de modificaciones realizadas debidadmente justificadas. ]
+He quitado solamente los vectores de el index, y la "niebla" que ocupaba la imagen. Ya que daba muchos problemas para hacerlo responsive.
 
 ## RECURSOS<a name="id4"></a>
-[Listado de recursos usados]
+Media query, bootstrap5 (para hacer el login) y iconbox (una página para iconos de p
 
 - Can I use?: https://caniuse.com/
 - Bootstrap: https://getbootstrap.com/
