@@ -1,0 +1,543 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', 'sans-serif';
+}
+
+
+header.header {
+    background-color: #E6F0E7;
+    width: 100%;
+    height: 35px;
+    position: fixed;
+    z-index: 100;
+}
+
+header a {
+    position: fixed;
+    text-decoration: none;
+    right: 15px;
+    top: 7px;
+}
+
+header a.nosotros {
+    right: 100px;
+}
+
+.banner img {
+    position: fixed;
+    width: fit-content;
+    max-height: 187px;
+    min-width: 100%;
+    z-index: 1;
+
+}
+
+.imgusuario img {
+    position: fixed;
+    top: 117px;
+    left: 257px;
+    z-index: 10;
+
+}
+
+.sidebar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height:calc(100% - 176px);
+    width: 317px;
+    padding: 10px 14px;
+    background: #f7fcf4;
+    padding-right: 10px;
+}
+
+.sidebar .usuarionombre {
+    position: relative;
+    top: 97px;
+    left: 12px;
+}
+
+.sidebar .usuariodescripcion {
+    position: relative;
+    top: 133px;
+    width: 247px;
+    left: 17px;
+
+}
+
+.sidebar .usuariolocalizacion {
+    position: relative;
+    top: 150px;
+    left: 18px;
+}
+
+
+.menu {
+    position: relative;
+    top: 192px;
+    left: 51px;
+
+
+}
+
+.menulink {
+    height: 41px;
+    margin-top: 2px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    background-color: #d7e4d8;
+    width: 251px;
+}
+
+.menulink a {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.menulink .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 60px;
+    font-size: 20px;
+}
+
+.menulink:hover {
+    background: #bccab3;
+}
+
+.cerrarsesion {
+    position: relative;
+    top: 357px;
+    left: 51px;
+}
+
+.home {
+    margin-left: 20px;
+    overflow-y:scroll;
+}
+
+.contenido {
+    position: fixed;
+    height: 100%;
+    width: calc(100% - 250px);
+    left: 250px;
+    top: 171px;
+}
+
+.barraprincipal {
+    position: relative;
+    list-style: none;
+    display: flex;
+    top: -25px;
+    left: 268px;
+    width: fit-content;
+}
+
+.barraprincipal li {
+    margin: 9px;
+}
+
+.barraprincipal li a {
+    border: 1px solid black;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 30px;
+    text-align: center;
+    height: 43px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 2px 2px 5px #999;
+}
+
+.contenedor {
+    width: 1141px;
+    height: 562px;
+    position: fixed;
+    top: 330px;
+    left: 524px;
+    overflow: hidden;
+    overflow-y: auto;
+
+}
+
+.contenedor .tarjeta {
+    background-color: #d7e4d8;
+    height: 167px;
+    margin-bottom: 10px;
+
+}
+
+.tarjeta {
+    display: flex;
+    max-height: 167px;
+}
+.tarjeta img {
+    margin: 20px;
+}
+
+.tarjetatexto {
+    width: 237px;
+    height: fit-content;
+    position: relative;
+    top: 58px;
+    left: -77px;
+}
+
+.tarjeta h3 {
+    position: relative;
+    left: 192px;
+    top: -145px;
+}
+
+.tarjetaicono {
+    position: relative;
+    left: 60px;
+    top: 112px;
+    font-size: 26px;
+}
+
+.tarjetaicono i {
+    margin: 9px;
+}
+
+.titulocomida {
+    position: fixed;
+    left: 536px;
+    top: 289px;
+    width: 541px;
+    height: 47px;
+    background-color: white;
+    padding: 8px;
+    border: solid 1px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #999;
+}
+
+.titulocomida h2 {
+    font-weight: 500;
+    left: 12px;
+    position: relative;
+}
+
+.tarjeta .imagenusuario {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    top: -2px;
+    position: relative;
+    left: 15px;
+}
+
+.tarjeta .nombreusuario {
+    display: flex;
+    position: relative;
+    top: -23px;
+    left: 37px;
+    font-weight: 500;
+    width: 154px;
+}
+
+.ingredientes {
+    position: relative;
+    top: 42px;
+    left: -54px;
+    width: 157px;
+    height: 118px;
+
+}
+
+
+.fotosrecomendacion {
+    position: relative;
+    top: 11px;
+    left: -25px;
+    max-width: 172px;
+    max-height: 100px;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    left: 125px;
+position: relative;
+}
+.box>* {
+    flex: 1 1 180px;
+}
+
+@media screen and (max-width:1400px) {
+
+    .titulocomida {
+        left: 466px;
+        top: 279px;
+        width: 639px;
+        height: 111px;
+    }
+
+    .contenedor {
+        top: 335px;
+        left: 457px;
+        width: 684px;
+      }
+
+      .contenedor .tarjeta {
+        max-height: 529px;
+        height: 529px;
+      }
+
+     .tarjetatexto {
+        left: -69px;
+        top: 192px;
+        font-weight: 500;
+      }
+
+
+      .tarjetaicono {
+        left: -335px;
+        top: 462px;
+      }
+
+
+    .tarjeta .imagenusuario {
+        top: -2px;
+        left: 59px;
+      }
+
+    .tarjeta .nombreusuario {
+        top: -8px;
+        left: 82px;
+    }
+
+    .fotosrecomendacion{
+        top: -109px;
+        left: -131px;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 206px;
+    }
+
+    .tarjetauser {
+        position: relative;
+        left: 207px;
+    }
+
+    .ingredientes {
+        left: -83px;
+    }
+
+}
+
+
+@media screen and (max-width:800px) {
+    .titulocomida {
+        left: 346px;
+        top: 279px;
+        width: 423px;
+        height: 111px;
+    }
+
+    .contenedor {
+        top: 367px;
+        left: 338px;
+        width: 445px;
+      }
+
+      .contenedor .tarjeta {
+        max-height: 529px;
+        height: 529px;
+      }
+
+     .tarjetatexto {
+        left: -69px;
+        top: 192px;
+        font-weight: 500;
+      }
+
+
+      .tarjetaicono {
+        left: -335px;
+        top: 462px;
+      }
+
+
+    .tarjeta .imagenusuario {
+        top: -2px;
+        left: 59px;
+      }
+
+    .tarjeta .nombreusuario {
+        top: -8px;
+        left: 82px;
+    }
+
+    .fotosrecomendacion{
+        top: -109px;
+        left: -131px;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 85px;
+    }
+
+    .tarjetauser {
+        position: relative;
+        left: 82px;
+    }
+
+    .ingredientes {
+        left: -83px;
+    }
+
+    .barraprincipal {
+        top: -11px;
+        left: 130px;
+    }
+
+    .barraprincipal li a {
+        padding: 6px;
+     
+      }
+
+
+}
+
+
+
+
+@media screen and (max-width:412px) {
+
+    .imgusuario img {
+        left: 19px;
+    }
+
+    .sidebar {
+        width: 122px;
+        z-index: 8;
+    }
+
+    .sidebar .usuarionombre {
+        position: relative;
+        top: 50px;
+        left: -5px;
+        font-size: 13px;
+      }
+
+    .usuariodescripcion {
+              display: none;
+          }
+    .usuariolocalizacion {
+        display: none;
+    }
+
+    .menulink {
+        width: 56px;
+    }
+
+    .menulink span {
+        display: none;
+    }
+
+    .barraprincipal {
+        display: block;
+        top: 54px;
+        left: -146px;
+      }
+
+      .barraprincipal li {
+        margin: 9px;
+
+      }
+
+      .barraprincipal li a {
+        padding: 11px;
+
+      }
+
+
+      .ingredientes {
+        top: 33px;
+        left: -82px;
+        font-weight: 500;
+      }
+
+      .titulocomida {
+            left: 150px;
+            top: 409px;
+            width: 232px;
+            height: 158px;
+      }
+      .titulocomida h2 {
+        font-size: 23px;
+        left: 6px;
+    }
+
+      .contenedor {
+        top: 513px;
+        left: 140px;
+        width: 251px;
+      }
+
+      .contenedor .tarjeta {
+        max-height: 529px;
+        height: 529px;
+      }
+
+     .tarjetatexto {
+        left: -69px;
+        top: 192px;
+        font-weight: 500;
+      }
+
+
+      .tarjetaicono {
+        left: -335px;
+        top: 462px;
+      }
+
+
+    .tarjeta .imagenusuario {
+        top: -2px;
+        left: 59px;
+      }
+
+    .tarjeta .nombreusuario {
+        top: -8px;
+        left: 82px;
+    }
+
+    .fotosrecomendacion{
+        top: -109px;
+        left: -131px;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0px;
+    }
+
+    .tarjetauser {
+        left: 4px;
+    }
+
+    }
