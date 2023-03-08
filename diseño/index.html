@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_index.css">
+    <link rel="icon" type="image/jpg" href="media/imágenes/favicon.ico"/>
+    <title>Bienvenido a sharecipe </title>
+</head>
+<body>
+    <header class="header"> 
+        <a href="sobrenosotros.html" class="nosotros">
+            Sobre nosotros
+        </a> 
+        <a href="#" class="contacto">
+            Contacto
+        </a>
+    </header>
+    <audio autoplay>
+        <source src="./media/audios/bk-sound.mp3" type="audio/mp3">
+        <source src="./media/audios/bk-sound.ogg" type="audio/ogg">
+            Tu navegador no soporta audio HTML5.
+    </audio>
+        <div class="overlay">
+            <picture>
+                <img class="imagen_bienvenido" src="./media/imagenes/background.png" alt="imagen bienvenido">
+            </picture>
+        </div>
+        <h1 class="bienvenido"> Bienvenido a <br> sharecipe </h1>
+        <picture>
+            <img class="imagen_logo" src="./media/imagenes/iconoceleste.svg" alt="imagen logo">
+        </picture>
+        <div class="login">
+            <h1> ¡Entra y descubre nuevas recetas! </h1>
+            <form action="#">
+                <label class="correo">
+                    Correo electrónico o teléfono:
+                    <input type="text">
+                </label>
+                <label class="contrasenia">
+                    Contraseña:
+                    <input type="password">
+                </label>
+                <label class="recuerdame">
+                    <input class="checkbox" type="checkbox"> Recuérdame
+                    <a href="#" class="olvidado_contrasenia"> He olvidado mi contraseña </a> 
+                </label>
+                <label class="boton_reg">
+                     <button class="registrate"> <a href="login.html"> Regístrate   </a> </button> 
+                </label>
+                <p class="o"> o </p>
+                <label class="boton_google">
+                    <button class="inicia_sesion"> Inicia sesión con google </button>
+                </label>
+            </form>
+        </div>
+</body>
+</html>
