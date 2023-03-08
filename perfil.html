@@ -6,9 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style_perfil.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/jpg" href="media/imágenes/favicon.ico"/>
     <title> Perfil </title>
 </head>
 <body>
+    <audio autoplay>
+        <source src="./media/audios/bk-sound.mp3" type="audio/mp3">
+        <source src="./media/audios/bk-sound.ogg" type="audio/ogg">
+            Tu navegador no soporta audio HTML5.
+    </audio>
     <header class="header"> 
         <a href="sobrenosotros.html" class="nosotros">
             Sobre nosotros
@@ -18,11 +24,18 @@
         </a>
     </header>
     <span class="banner"> 
-        <img src="./imagenes/banner_perfil.png" alt="5">
+        <picture>
+            <img src="./media/imagenes/banner_perfil.png" alt="5">
+        </picture>
     </span>
     <span class="imgusuario">
-        <img src="./imagenes/imagen_usuario.png" alt="6">
+        <picture>
+            <img src="./media/imagenes/imagen_usuario.png" alt="6">
+        </picture>
     </span>
+    <picture>
+        <img class="imagen_logo" src="./media/imagenes/iconoceleste.svg" alt="imagen logo">
+    </picture>
     <div class="sidebar">
         <h2 class="usuarionombre"> @morenitaxulita </h2>
         <p class="usuariodescripcion">
@@ -85,7 +98,9 @@
 
     <div class="contenedor">
         <div class="tarjeta">
-            <img src="./imagenes/chicharos1.png" alt="1"> 
+            <picture> 
+                <img src="./media/imagenes/chicharos1.png" alt="1"> 
+            </picture>
             <h3> <a href="receta.html"> Chicharos con huevo de @morenitaxulita </a> </h3>
             <div class="tarjetatexto">
                 <p> <b>Ingredientes:</b> 200 gr de chícharos, 2 huevos, ajo, aceite, sal... </p>
@@ -99,7 +114,9 @@
             </div>
         </div>
         <div class="tarjeta">
-            <img src="./imagenes/chicharos2.png" alt="2"> 
+            <picture>
+                <img src="./media/imagenes/chicharos2.png" alt="2"> 
+            </picture>
             <h3>  Potaje de chícharos con “sinojos” de @morenitaxulita  </h3>
             <div class="tarjetatexto">
                 <p> <b>Ingredientes:</b> 1/2 Kilos de chícharos, 1 manojo de hinojos, 2 chorizos ibéricos.. </p>
@@ -113,7 +130,9 @@
             </div>
         </div>
         <div class="tarjeta">
-            <img src="./imagenes/chicharos3.png" alt="3"> 
+            <picture>
+                <img src="./media/imagenes/chicharos3.png" alt="3"> 
+            </picture>
             <h3> Arroz con gambas y chícharos de @morenitaxulita </h3>
             <div class="tarjetatexto">
                 <p> <b>Ingredientes:</b> 200 gr de chícharos, 1 ajo, 1 tomate, 1 trozo de cebolla, arroz... </p>
@@ -128,7 +147,9 @@
             </div>
         </div>
         <div class="tarjeta">
-            <img src="./imagenes/chicharos4.png" alt="4"> 
+            <picture>
+                <img src="./media/imagenes/chicharos4.png" alt="4"> 
+            </picture>
             <h3> Chícharos picantes en olla GM de @morenitaxulita </h3>
             <div class="tarjetatexto">
                 <p> <b>Ingredientes:</b> 200 gr de chícharos y alubias blancas 1 trozo de cebolla, 2 ajos.... </p>

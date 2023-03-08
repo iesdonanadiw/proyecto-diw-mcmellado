@@ -92,6 +92,7 @@ header a.nosotros {
     display: flex;
     align-items: center;
     background-color: #d7e4d8;
+    transition: all 0.3s ease;
     width: 251px;
 }
 
@@ -146,7 +147,13 @@ header a.nosotros {
 
 .barraprincipal li {
     margin: 9px;
+    transition: all 0.2s ease;
 }
+
+.barraprincipal li:hover {
+    font-weight: 800;
+}
+
 
 .barraprincipal li a {
     border: 1px solid black;
@@ -276,6 +283,23 @@ position: relative;
 .box>* {
     flex: 1 1 180px;
 }
+
+.imagen_logo {
+    width: 834px;
+    height: 132px;
+    position: relative;
+    left: 1360px;
+    display: flex;
+    top: 218px;
+    position: fixed;
+    animation: presentacion_logo 5s 1;
+}
+
+@keyframes presentacion_logo {
+    0%{left: 1581px;}
+    100%{left: 1360px;}
+}
+
 
 @media screen and (max-width:1400px) {
 

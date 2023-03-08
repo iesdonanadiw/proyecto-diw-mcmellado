@@ -6,9 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style_comentarios.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/jpg" href="media/imágenes/favicon.ico"/>
     <title> Perfil </title>
 </head>
 <body>
+    <audio autoplay>
+        <source src="./media/audios/bk-sound.mp3" type="audio/mp3">
+        <source src="./media/audios/bk-sound.ogg" type="audio/ogg">
+            Tu navegador no soporta audio HTML5.
+    </audio>
     <header class="header"> 
         <a href="sobrenosotros.html" class="nosotros">
             Sobre nosotros
@@ -18,11 +24,18 @@
         </a>
     </header>
     <span class="banner"> 
-        <img src="./imagenes/banner_perfil.png" alt="1">
+        <picture>
+            <img src="./media/imagenes/banner_perfil.png" alt="1">
+        </picture>
     </span>
     <span class="imgusuario">
-        <img src="./imagenes/imagen_usuario.png" alt="2">
+        <picture>
+            <img src="./media/imagenes/imagen_usuario.png" alt="2">
+        </picture>
     </span>
+    <picture>
+        <img class="imagen_logo" src="./media/imagenes/iconoceleste.svg" alt="imagen logo">
+    </picture>
     <div class="sidebar">
         <h2 class="usuarionombre"> @morenitaxulita </h2>
         <p class="usuariodescripcion">
@@ -82,7 +95,9 @@
         
     <div class="contenedor">
         <div class="tarjeta">
-            <img src="./imagenes/usuario1.png" alt="3"> 
+            <picture>
+                <img src="./media/imagenes/usuario1.png" alt="3"> 
+            </picture>
             <p> @rubita23 </p>
             <div class="tarjetatexto">
                 <p> “Me encanta la comida q has hecho está muy buena aunque no se q te pasa con los chicharos @morenitaxulita”  </p>
@@ -100,7 +115,9 @@
             </div>
         </div>
         <div class="tarjeta">
-            <img src="./imagenes/usuario2.png" alt="4">
+            <picture>
+                <img src="./media/imagenes/usuario2.png" alt="4">
+            </picture>
             <p>  @maxoiberico </p> 
             <div class="tarjetatexto">
                 <p> “Pal gym y to eso me viene del carajo vamo ole ole ole gracias x compartir aunq yo le eché mucha sal.... 2 horas más en el gimnasio :(”  </p>
@@ -118,7 +135,9 @@
             </div>
         </div>
         <div class="tarjeta">
-            <img src="./imagenes/usuario3.png" alt="5"> 
+            <picture>
+                <img src="./media/imagenes/usuario3.png" alt="5"> 
+            </picture>
             <p> @lauralacasitos </p>
             <div class="tarjetatexto">
                 <p> “Un poco sobrevalorada tus recetas @morenitaxulita. Antes te dedicabas más a la cocina pero ahora ya no es como antes...” </p>
@@ -136,7 +155,9 @@
             </div>
         </div>
         <div class="tarjeta">
-            <img src="./imagenes/usuario4.png" alt="6">
+            <picture>
+                <img src="./media/imagenes/usuario4.png" alt="6">
+            </picture>
             <p> @natpelele </p> 
             <div class="tarjetatexto">
                 <p> "Me encanta la comida que has hecho @morenitaxulita. Eres la mejor muchísimas gracias. Me lo meto por el c*l*"</p>

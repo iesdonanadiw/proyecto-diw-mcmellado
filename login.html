@@ -5,9 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style_login.css">
+    <link rel="icon" type="image/jpg" href="media/imágenes/favicon.ico"/>
     <title>Login</title>
 </head>
 <body>
+    <audio autoplay>
+        <source src="./media/audios/bk-sound.mp3" type="audio/mp3">
+        <source src="./media/audios/bk-sound.ogg" type="audio/ogg">
+            Tu navegador no soporta audio HTML5.
+    </audio>
+    <div class="video_fondo">
+        <video autoplay="true" muted="true" loop="true"  id="video_background">
+            <source src="./media/videos/video_testimonio_background.mp4" type="video/mp4">
+        </video>
+    </div>
     <header class="header"> 
         <a href="sobrenosotros.html" class="nosotros">
             Sobre nosotros
@@ -21,7 +32,9 @@
         <h1> ¡Únete ahora! </h1>
         <p>En nuestra web encontrarás recetas de cocina casera ideales para hacer platos para todos 
         los gustos y dietas: vegetariana, mediterranea..</p>
-
+        <picture>
+            <img class="imagen_logo" src="./media/imagenes/iconoceleste.svg" alt="imagen logo">
+        </picture>
         <form class="login">
             <label>
                 <input type="text" placeholder="  Nombre y apellidos">

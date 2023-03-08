@@ -31,8 +31,6 @@ h1 {
     font-size: 45px;
 }
 
-
-
 .login {
     
     align-items: flex-start;
@@ -88,8 +86,6 @@ form label input {
     left: -20px;
     width: 950px;
     top: -30px;
-
-    
     
 }
 
@@ -189,6 +185,22 @@ form label input {
     left: 182px;
 }
 
+.imagen_logo {
+    width: 834px;
+    height: 132px;
+    position: relative;
+    left: 1321px;
+    display: flex;
+    top: 173px;
+    position: fixed;
+    animation: presentacion_logo 5s 1;
+}
+
+@keyframes presentacion_logo {
+    0%{left: 1581px;}
+    100%{left: 1321px;}
+}
+
 @media screen and (max-width:1200px) {
 
     body {
@@ -261,7 +273,7 @@ form label input {
                 position: absolute;
                 left: 0;
                 width: 402px;
-            height: 413px;
+                height: 413px;
 
             }
             .bienvenido {

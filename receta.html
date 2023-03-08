@@ -6,9 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style_receta.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/jpg" href="media/imágenes/favicon.ico"/>
     <title> Perfil </title>
 </head>
 <body>
+    <audio autoplay>
+        <source src="./media/audios/bk-sound.mp3" type="audio/mp3">
+        <source src="./media/audios/bk-sound.ogg" type="audio/ogg">
+            Tu navegador no soporta audio HTML5.
+    </audio>
     <header class="header"> 
         <a href="sobrenosotros.html" class="nosotros">
             Sobre nosotros
@@ -17,12 +23,19 @@
             Contacto
         </a>
     </header>
-    <span class="banner"> 
-        <img src="./imagenes/banner_perfil.png" alt="1">
+    <span class="banner">
+        <picture>
+            <img src="./media/imagenes/banner_perfil.png" alt="1">
+        </picture>
     </span>
     <span class="imgusuario">
-        <img src="./imagenes/imagen_usuario.png" alt="2">
+        <picture>
+            <img src="./media/imagenes/imagen_usuario.png" alt="2">
+        </picture>
     </span>
+    <picture>
+        <img class="imagen_logo" src="./media/imagenes/iconoceleste.svg" alt="imagen logo">
+    </picture>
     <div class="sidebar">
         <h2 class="usuarionombre"> @morenitaxulita </h2>
         <p class="usuariodescripcion">
@@ -81,7 +94,9 @@
         <div class="descripcionreceta">
             <header class="receta">
                 <h3> Chicharos con huevo de @morenitaxulita </h3>
-                <img src="./imagenes/chicharos1.png" alt="3"> 
+                <picture>
+                    <img src="./media/imagenes/chicharos1.png" alt="3"> 
+                </picture>
             </header>
             <div class="instrucciones">
                 <h2> Instrucciones: </h2>

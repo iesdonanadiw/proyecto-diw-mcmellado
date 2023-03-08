@@ -93,6 +93,8 @@ header a.nosotros {
     align-items: center;
     background-color: #d7e4d8;
     width: 251px;
+    transition: all 0.3s ease;
+
 }
 
 .menulink a {
@@ -141,6 +143,7 @@ header a.nosotros {
 
 .barraprincipal li {
     margin: 9px;
+
 }
 
 .barraprincipal li a {
@@ -248,7 +251,31 @@ header a.nosotros {
 
 .tarjetavaloracion i {
     color: rgb(255, 231, 94);
+    animation: pulse 0.5s linear infinite;
+
 }
+
+
+.imagen_logo {
+    width: 834px;
+    height: 132px;
+    position: relative;
+    left: 1360px;
+    display: flex;
+    top: 218px;
+    position: fixed;
+    animation: presentacion_logo 5s 1;
+}
+
+@keyframes presentacion_logo {
+    0%{left: 1581px;}
+    100%{left: 1360px;}
+}
+
+@keyframes pulse{
+    25%  {transform: scale(0.9);}
+    75%  {transform: scale(1.1);}
+  }
 
 
 @media screen and (max-width:1200px) {

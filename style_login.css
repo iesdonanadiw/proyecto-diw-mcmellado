@@ -8,12 +8,7 @@
 }
 
 body {
-    background-image: url(./imagenes/imagen_login.png);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: -4px;
-    background-repeat: no-repeat;
-    
+    background-color: #242424;
 
 } 
 
@@ -108,6 +103,35 @@ form {
     text-decoration: none;
     color: white;
 }
+
+.imagen_logo {
+    width: 834px;
+    height: 132px;
+    position: relative;
+    left: 1321px;
+    display: flex;
+    top: 710px;
+    position: fixed;
+    animation: presentacion_logo 5s 1;
+}
+
+video {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 105%;
+        min-height: 100%;
+        transform: translateX(calc((100% - 100vw) / 2));
+        z-index: -2;
+        opacity: 20%;
+    }
+
+@keyframes presentacion_logo {
+    0%{left: 1581px;}
+    100%{left: 1321px;}
+}
+
+
 
 @media screen and (max-width:1200px) {
 

@@ -90,6 +90,7 @@ header a.nosotros {
     display: flex;
     align-items: center;
     background-color: #d7e4d8;
+    transition: all 0.3s ease;
     width: 251px;
 }
 
@@ -137,7 +138,12 @@ header a.nosotros {
     width: fit-content;
 }
 
+.barraprincipal li:hover {
+    font-weight: 800;
+}
+
 .barraprincipal li {
+    transition: all 0.2s ease;
     margin: 9px;
 }
 
@@ -230,6 +236,22 @@ header a.nosotros {
     top: -117px;
     font-size: 26px;
 
+}
+
+.imagen_logo {
+    width: 834px;
+    height: 132px;
+    position: relative;
+    left: 1360px;
+    display: flex;
+    top: 218px;
+    position: fixed;
+    animation: presentacion_logo 5s 1;
+}
+
+@keyframes presentacion_logo {
+    0%{left: 1581px;}
+    100%{left: 1360px;}
 }
 
 

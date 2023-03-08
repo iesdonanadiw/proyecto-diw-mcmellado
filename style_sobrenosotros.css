@@ -75,6 +75,74 @@ h1 {
     
 }
 
+.imagen_logo {
+    width: 834px;
+    height: 132px;
+    position: relative;
+    left: 1360px;
+    display: flex;
+    top: 75px;
+    position: fixed;
+    animation: presentacion_logo 5s 1;
+}
+
+details {
+        width: 50px;
+        display: flex;
+        left: 1028px;
+        position: relative;
+        top: 200px;
+}
+
+.boton_dialogo {
+    position: absolute;
+    left: 1543px;
+    top: 541px;
+  }
+
+dialog[open] {
+    position: relative;
+    left: 768px;
+    top: 332px;
+    padding: 50px;
+    border-radius: 7px;
+}
+
+.boton_cerrar {
+    left: 101px;
+    position: relative;
+    top: 10px;
+}
+
+dialog::backdrop{
+    background: linear-gradient(150deg, white,  #374138);
+    mix-blend-mode: multiply;
+}
+
+dialog p {
+    margin: 15px;
+}
+
+.video_presentacion {
+    position: absolute;
+    left: 391px;
+    top: 288px;
+}
+
+video {
+    width: 500px;
+
+}
+
+
+@keyframes presentacion_logo {
+    0%{left: 1581px;}
+    100%{left: 1360px;}
+}
+
+
+
+
 @media screen and (max-width:1000px) {
 
     .contenido p {
