@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_sobrenosotros.css">
+    <link rel="icon" type="image/jpg" href="media/imágenes/favicon.ico"/>
+    <title>Bienvenido a sharecipe </title>
+</head>
+<body>
+    <audio autoplay>
+        <source src="./media/audios/bk-sound.mp3" type="audio/mp3">
+        <source src="./media/audios/bk-sound.ogg" type="audio/ogg">
+            Tu navegador no soporta audio HTML5.
+    </audio>
+    <header class="header">
+        <div class="contacto">
+            <a href="#" class="nosotros">
+                Sobre nosotros
+            </a> 
+            <a href="#" class="contacto">
+                Contacto
+            </a>
+        </div>
+    </header>
+        <picture>
+            <img class="imagen_sobrenosotros" src="./media/imagenes/background.png" alt="imagen bienvenido">
+        </picture>
+        <h1 class="sobreN"> Sobre nosotros: </h1>
+        <picture>
+            <img class="imagen_logo" src="./media/imagenes/iconoceleste.svg" alt="imagen logo">
+        </picture>
+        <div class="contenido">
+            <p>
+                En Sharecipe, nuestra misión es hacer que la cocina diaria sea algo divertido. 
+                Creemos firmemente que cocinar es la clave para que todos tengamos una vida más sana y más feliz y un planeta más cuidado. 
+                Ofrecemos a todos los que cocináis en casa cada día, y desde cualquier lugar del mundo, 
+                un espacio en el que nos ayudamos mutuamente, compartiendo recetas y trucos de cocina.
+            </p>
+        </div>
+        <div class="video_presentacion">
+            <video width="320" height="240" controls>
+                <source src="./media/videos/video_testimonio.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <details>
+            <summary>Detalles</summary>
+            <picture>
+                <img class="gif_logo" src="./media/animaciones/iconoceleste.gif" alt="gif logo">
+            </picture>
+        </details>
+
+        <div class="boton_dialogo">
+            <button class="boton" id="show-modal" onclick="document.getElementById('dialogo').showModal()">Nuestros contactos</button>
+            <dialog id="dialogo">
+              <p> <b>Teléfono:</b> 789874528 </p>
+              <p> <b>Correo:</b> sharecipe@gmail.com </p>
+              <p> <b>Redes sociales:</b> @sharecipe </p>
+              <button class="boton_cerrar" id="close" onclick="document.getElementById('dialogo').close()">Cerrar</button>
+            </dialog>
+        </div>
+
+</body>
+</html>
